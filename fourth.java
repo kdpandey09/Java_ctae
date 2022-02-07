@@ -1,4 +1,4 @@
-/* Program to illustrate Variable Arguments (Varargs) in Java  (KAUSTUB DUTT PANDEY) */
+/* Program to illustrate Variable Arguments (Varargs) in Java  */
 class calc{
     void add(int... a){
         int sum = 0;
