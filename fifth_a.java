@@ -1,3 +1,4 @@
+/*Program for prime and non-prime no.s and factoial of numbers in a array (KAUSTUB DUTT PANDEY)*/
 import java.util.Scanner;
 public class fifth_a {
     public static boolean isPrime(int a)
@@ -6,7 +7,7 @@ public class fifth_a {
         if (a <= 1)
             return false;
       
-        // Check from 2 to n-1
+        // Check from 2 to a-1
         for (int i = 2; i < a; i++)
             if (a % i == 0)
                 return false;
