@@ -44,7 +44,7 @@ public class sixth {
         }
     }
     public static void main(String[] args) {
-        System.out.println("WELCOME TO VENDING MACHINE\n\n CHOCOLATE IS OF RS.20 EACH\n COLD DRINK IS OF RS.30 EACH\n CHIPS IS RS.10 EACH");
+        System.out.println("WELCOME TO VENDING MACHINE\n\n CHOCOLATE IS OF Rs.20 EACH\n COLD DRINK IS OF Rs.30 EACH\n CHIPS IS OF Rs.10 EACH");
         Scanner sc =new Scanner(System.in);
         int number;
         chocolate choco = new chocolate();
@@ -60,6 +60,6 @@ public class sixth {
         number = sc.nextInt();
         chips.input(number);
         int Total = choco.total() + drink.total() + chips.total();
-        System.out.println("\n\nTOTAL AMOUNT TO BE PAID = "+Total);
+        System.out.println("\n\nTOTAL AMOUNT TO BE PAID = Rs. "+Total);
     }
 }
