@@ -1,3 +1,4 @@
+/* JAVA PROGRAM TO THE USE OF SUPER KEYWORD (Kaustub Dutt Pandey)  */
 public class seventh {
     static class parent{
        int variable = 20;
