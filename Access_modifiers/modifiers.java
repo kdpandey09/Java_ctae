@@ -21,10 +21,10 @@ public class modifiers {
     }
 
     private void _private_() {
-        System.out.println("This is a Private acess modifier");
+        System.out.println("This is a Private access modifier");
     }
 
     protected void _protected_() {
-        System.out.println("This is a Protected acess modifier");
+        System.out.println("This is a Protected access modifier");
     }
 }
